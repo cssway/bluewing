@@ -1,0 +1,15 @@
+/*
+Copyright (c) 2010, Bluewing
+cssway.team@gmail.com at 2010-12-7
+version: 0.0.9
+*/
+/* 建议使用 YUI Compressor 等工具，把以下CSS压缩成一个完整的文件 */
+/* Core / 核心 */
+@import url(core.css);
+/* Layout / 布局 */
+@import url(layout.css);
+/* Modules / 模块 */
+@import url(mod.css);
+/* Widgets / 组件 */
+@import url(widgets/button.css);
+@import url(widgets/pagination.css);

@@ -1,0 +1,27 @@
+/*
+Copyright (c) 2010, Bluewing
+cssway.team@gmail.com at 2010-12-7
+version: 0.0.9
+*/
+/* module / 模块，按需扩展 */
+.mod {
+	position:relative;
+}
+	/* head */
+	.mod .hd {
+		background:#EEE;
+		padding:5px 10px;
+		color:#666;
+	}
+	/* body */
+	.mod .bd {
+		background:#FFF;
+		padding:5px 10px;
+	}
+	/* action / 模块内的动作，如：更多、排序等，按需设置 */
+	.mod .act {
+		position:absolute;
+		top:5px;
+		right:10px;
+		color:#666;
+	}

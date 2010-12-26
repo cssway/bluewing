@@ -1,0 +1,51 @@
+/*
+Copyright (c) 2010, Bluewing
+cssway.team@gmail.com at 2010-12-7
+version: 0.0.9
+*/
+/*------------------------------------------------
+
+	<div class="pagination">
+		<a class="disable">上一页</a>
+		<a class="page-cur">1</a>
+		<a href="">2</a>
+		<a href="">3</a>
+		<span class="break">...</span>
+		<a href="">8</a>
+		<a href="">9</a>
+		<a href="">下一页</a>
+	</div>
+	
+------------------------------------------------*/
+.pagination {
+	margin:0.5em 0;
+}
+.pagination a {
+	background: #FFF;
+	border: 1px solid #CCC;
+	color: #03C;
+	margin-right: 5px;
+	padding:0.1em 0.5em;
+	display:inline-block;
+}
+.pagination a:hover {
+	background: #09F;
+	color: #FFF;
+	text-decoration: none;
+}
+.pagination .page-cur, .pagination .page-cur:hover {
+	background: #FFF;
+	border-color: #FFF;
+	color: #F60;
+	cursor: default;
+	font-weight: 700;
+}
+.pagination .disable, .pagination .disable:hover {
+	background: #FFF;
+	color: #AAA;
+	cursor: no-drop;
+}
+.pagination .break {
+	margin-right: 5px;
+	padding: 0 0.5em;
+}
